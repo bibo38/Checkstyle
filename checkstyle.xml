@@ -109,6 +109,7 @@
       <property name="max" value="1"/>
     </module>
     <module name="ArrayTypeStyle">
+      <property name="severity" value="warning"/>
       <property name="javaStyle" value="false"/>
     </module>
     <module name="CommentsIndentation"/>
