@@ -3,6 +3,15 @@ Checkstyle configuration
 
 This are my personal coding preferences packed into a Checkstyle configuration.
 
+URL-Configuration
+-----------------
+
+You can configure checkstyle to use the following URL: 
+[https://raw.githubusercontent.com/bibo38/Checkstyle/master/checkstyle.xml](https://raw.githubusercontent.com/bibo38/Checkstyle/master/checkstyle.xml)
+
+Gradle
+------
+
 To use it with [Gradle](https://gradle.org/) add this project as a Git submodule
 
 ```bash
