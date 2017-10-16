@@ -48,6 +48,7 @@
     </module>
     <module name="OperatorWrap">
       <property name="option" value="eol"/>
+      <property name="tokens" value="QUESTION,COLON,EQUAL,NOT_EQUAL,DIV,PLUS,MINUS,STAR,MOD,SR,BSR,GE,GT,SL,LE,LT,BXOR,LOR,BAND,LAND,LITERAL_INSTANCEOF,TYPE_EXTENSION_AND"/>
     </module>
     <module name="MethodParamPad"/>
     <module name="ParenPad"/>
