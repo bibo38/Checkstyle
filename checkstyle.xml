@@ -44,7 +44,7 @@
       <property name="tokens" value="BNOT,DEC,DOT,INC,LNOT,UNARY_MINUS,UNARY_PLUS"/>
     </module>
     <module name="NoWhitespaceBefore">
-      <property name="tokens" value="COMMA,SEMI,DOT,POST_DEC,POST_INC,GENERIC_START,GENERIC_END"/>
+      <property name="tokens" value="COMMA,SEMI,POST_INC,POST_DEC,DOT,GENERIC_END"/>
     </module>
     <module name="OperatorWrap">
       <property name="option" value="eol"/>
