@@ -44,7 +44,7 @@
       <property name="tokens" value="BNOT,DEC,DOT,INC,LNOT,UNARY_MINUS,UNARY_PLUS"/>
     </module>
     <module name="NoWhitespaceBefore">
-      <property name="tokens" value="COMMA,SEMI,POST_INC,POST_DEC,DOT,GENERIC_END"/>
+      <property name="tokens" value="COMMA,SEMI,POST_INC,POST_DEC,GENERIC_END"/>
     </module>
     <module name="OperatorWrap">
       <property name="option" value="eol"/>
@@ -63,7 +63,9 @@
     <module name="EmptyLineSeparator">
       <property name="tokens" value="PACKAGE_DEF,IMPORT,CLASS_DEF,ENUM_DEF,INTERFACE_DEF,CTOR_DEF,METHOD_DEF,STATIC_INIT,INSTANCE_INIT"/>
     </module>
-    <module name="SeparatorWrap"/>
+    <module name="SeparatorWrap">
+      <property name="tokens" value="COMMA,SEMI"/>
+    </module>
     <module name="ModifierOrder"/>
     <module name="RedundantModifier"/>
     <module name="EmptyBlock">
@@ -117,6 +119,11 @@
     <module name="OuterTypeFilename"/>
     <module name="WhitespaceAfter">
       <property name="tokens" value="COMMA,SEMI,TYPECAST,LITERAL_ELSE,LITERAL_DO"/>
+    </module>
+    <module name="SeparatorWrap">
+      <metadata name="net.sf.eclipsecs.core.comment" value="Dot for method chaining should be in the new line"/>
+      <property name="option" value="nl"/>
+      <property name="tokens" value="DOT"/>
     </module>
   </module>
   <module name="FileLength">
